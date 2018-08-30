@@ -1,0 +1,274 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+MERGED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7e74156c884ebeff343947842207a0f2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adnroid/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2a305213faf50b1d8dbf611a2700d14/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-location-11.0.4.aar/4d634cd2afba701967f57b695928433f/AndroidManifest.xml:2:1-5:12
+MERGED from [com.android.volley:volley:1.0.0] /home/adnroid/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/91504c5b8a74d0f9335b07b029d470d4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c22985f894006d47af1402523239e4a4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/06b4bb5601b59bf2198211a1da144129/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/0cb5cd83f31adb42169e7bb728ccff01/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ee4526b2a1c24d951ab67c4de29b7e3f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/449aaa38ab2ce257c8322e41d34ef071/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/e964e31bcefed959d1fc0607333a44a0/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9f525f9a75f2ef34f9c8a8fbc7c47a40/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d51593a53ff16b48e1b0250ddf3dfbc3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f918d2fd3b1443c748348fb9ad5ed01d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4e06c17d2026e8ac3d0b3763910fa5f6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/caf7ae3adcc873db6c1b1d2af27a816c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/b8e4682cd472bd3be60e40a71bd7b8b7/AndroidManifest.xml:17:1-31:12
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+	package
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:1-70:12
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:14:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:17:22-78
+application
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:19:5-68:19
+MERGED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7e74156c884ebeff343947842207a0f2/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7e74156c884ebeff343947842207a0f2/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adnroid/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2a305213faf50b1d8dbf611a2700d14/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adnroid/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2a305213faf50b1d8dbf611a2700d14/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-location-11.0.4.aar/4d634cd2afba701967f57b695928433f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-location-11.0.4.aar/4d634cd2afba701967f57b695928433f/AndroidManifest.xml:4:5-19
+MERGED from [com.android.volley:volley:1.0.0] /home/adnroid/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/91504c5b8a74d0f9335b07b029d470d4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/adnroid/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/91504c5b8a74d0f9335b07b029d470d4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c22985f894006d47af1402523239e4a4/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c22985f894006d47af1402523239e4a4/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/06b4bb5601b59bf2198211a1da144129/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/06b4bb5601b59bf2198211a1da144129/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ee4526b2a1c24d951ab67c4de29b7e3f/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ee4526b2a1c24d951ab67c4de29b7e3f/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/449aaa38ab2ce257c8322e41d34ef071/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/449aaa38ab2ce257c8322e41d34ef071/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/e964e31bcefed959d1fc0607333a44a0/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/e964e31bcefed959d1fc0607333a44a0/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9f525f9a75f2ef34f9c8a8fbc7c47a40/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9f525f9a75f2ef34f9c8a8fbc7c47a40/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d51593a53ff16b48e1b0250ddf3dfbc3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d51593a53ff16b48e1b0250ddf3dfbc3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f918d2fd3b1443c748348fb9ad5ed01d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f918d2fd3b1443c748348fb9ad5ed01d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4e06c17d2026e8ac3d0b3763910fa5f6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4e06c17d2026e8ac3d0b3763910fa5f6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/caf7ae3adcc873db6c1b1d2af27a816c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/caf7ae3adcc873db6c1b1d2af27a816c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/b8e4682cd472bd3be60e40a71bd7b8b7/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/b8e4682cd472bd3be60e40a71bd7b8b7/AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:24:9-54
+	android:icon
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:26:9-40
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:20:9-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:36:9-38:55
+	android:value
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:38:13-52
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:37:13-58
+activity#com.developers.trackme.SplashScreenActivity
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:40:9-48:20
+	android:label
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:41:13-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:46:27-74
+activity#com.developers.trackme.HomeScreenActivity
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:50:9-52:62
+	android:screenOrientation
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:52:13-60
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:50:19-75
+activity#com.developers.trackme.DirectionActivity
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:54:9-56:62
+	android:screenOrientation
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:56:13-60
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:54:19-74
+activity#com.developers.trackme.LocationGet
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:58:9-60:62
+	android:screenOrientation
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:60:13-60
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:58:19-68
+activity#com.developers.trackme.CarTrackingActivity
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:62:9-64:62
+	android:screenOrientation
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:64:13-60
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:62:19-76
+service#com.developers.trackme.services.LocationMonitoringService
+ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:66:9-71
+	android:name
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml:66:18-68
+uses-sdk
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7e74156c884ebeff343947842207a0f2/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7e74156c884ebeff343947842207a0f2/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adnroid/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2a305213faf50b1d8dbf611a2700d14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adnroid/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2a305213faf50b1d8dbf611a2700d14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-location-11.0.4.aar/4d634cd2afba701967f57b695928433f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-location-11.0.4.aar/4d634cd2afba701967f57b695928433f/AndroidManifest.xml:3:5-43
+MERGED from [com.android.volley:volley:1.0.0] /home/adnroid/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/91504c5b8a74d0f9335b07b029d470d4/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] /home/adnroid/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/91504c5b8a74d0f9335b07b029d470d4/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c22985f894006d47af1402523239e4a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c22985f894006d47af1402523239e4a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/06b4bb5601b59bf2198211a1da144129/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/06b4bb5601b59bf2198211a1da144129/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/0cb5cd83f31adb42169e7bb728ccff01/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/0cb5cd83f31adb42169e7bb728ccff01/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ee4526b2a1c24d951ab67c4de29b7e3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ee4526b2a1c24d951ab67c4de29b7e3f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/449aaa38ab2ce257c8322e41d34ef071/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/449aaa38ab2ce257c8322e41d34ef071/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/e964e31bcefed959d1fc0607333a44a0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/e964e31bcefed959d1fc0607333a44a0/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9f525f9a75f2ef34f9c8a8fbc7c47a40/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9f525f9a75f2ef34f9c8a8fbc7c47a40/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d51593a53ff16b48e1b0250ddf3dfbc3/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d51593a53ff16b48e1b0250ddf3dfbc3/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f918d2fd3b1443c748348fb9ad5ed01d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f918d2fd3b1443c748348fb9ad5ed01d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4e06c17d2026e8ac3d0b3763910fa5f6/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4e06c17d2026e8ac3d0b3763910fa5f6/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/caf7ae3adcc873db6c1b1d2af27a816c/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/caf7ae3adcc873db6c1b1d2af27a816c/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/b8e4682cd472bd3be60e40a71bd7b8b7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/b8e4682cd472bd3be60e40a71bd7b8b7/AndroidManifest.xml:21:5-23:58
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+		ADDED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+		INJECTED from /media/Myworkout/Project_Studio/TrackU/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7e74156c884ebeff343947842207a0f2/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/7e74156c884ebeff343947842207a0f2/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c22985f894006d47af1402523239e4a4/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c22985f894006d47af1402523239e4a4/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/06b4bb5601b59bf2198211a1da144129/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/06b4bb5601b59bf2198211a1da144129/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/0cb5cd83f31adb42169e7bb728ccff01/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/0cb5cd83f31adb42169e7bb728ccff01/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ee4526b2a1c24d951ab67c4de29b7e3f/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/ee4526b2a1c24d951ab67c4de29b7e3f/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9f525f9a75f2ef34f9c8a8fbc7c47a40/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9f525f9a75f2ef34f9c8a8fbc7c47a40/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d51593a53ff16b48e1b0250ddf3dfbc3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d51593a53ff16b48e1b0250ddf3dfbc3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f918d2fd3b1443c748348fb9ad5ed01d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/f918d2fd3b1443c748348fb9ad5ed01d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4e06c17d2026e8ac3d0b3763910fa5f6/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/4e06c17d2026e8ac3d0b3763910fa5f6/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/caf7ae3adcc873db6c1b1d2af27a816c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/caf7ae3adcc873db6c1b1d2af27a816c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/b8e4682cd472bd3be60e40a71bd7b8b7/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/b8e4682cd472bd3be60e40a71bd7b8b7/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/adnroid/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/72222652f35ce9ff941ce0fb6ba5f053/AndroidManifest.xml:26:9-47
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/14f13425087983389af478b053bf267c/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/f9a427bf2c3a82f397c6708cf56c6f04/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/e964e31bcefed959d1fc0607333a44a0/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/e964e31bcefed959d1fc0607333a44a0/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/adnroid/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/e964e31bcefed959d1fc0607333a44a0/AndroidManifest.xml:20:20-65

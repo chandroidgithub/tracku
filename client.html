@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script>
+      // socket.io specific code
+      var socket = io.connect('http://tracking.openclouds.in:9000/');
+      var i=0;
+      var latlong=[{
+          lat:'22.56851369',
+          lng:'88.43345636'
+      },{
+          lat:'22.5685013',
+          lng:'88.43343893'
+      },{
+          lat:'22.56848397',
+          lng:'88.4334282'
+      },{
+          lat:'22.5684431',
+          lng:'88.43339467'
+      },{
+          lat:'22.5683527',
+          lng:'88.43334974'
+      },{
+          lat:'22.56828335',
+          lng:'88.43331487'
+      },{
+          lat:'22.56823876',
+          lng:'88.43328001'
+      },{
+          lat:'22.56808025',
+          lng:'88.43319686'
+      },{
+          lat:'22.5679886',
+          lng:'88.43313517'
+      },{
+          lat:'22.5678821',
+          lng:'88.43306811'
+      },{
+          lat:'22.56784247',
+          lng:'88.43304665'
+      },{
+          lat:'22.56781027',
+          lng:'88.43303324'
+      },{
+          lat:'22.56781275',
+          lng:'88.43300642'
+      },{
+          lat:'22.56780037',
+          lng:'88.43296887'
+      },{
+          lat:'22.56784495',
+          lng:'88.43289913'
+      },{
+          lat:'22.56786724',
+          lng:'88.43282671'
+      },{
+          lat:'22.5679143',
+          lng:'88.4327382'
+      },
+      {
+          lat:'22.5680109',
+          lng:'88.43250216'
+      },
+      {
+'lat':'22.5680109',
+'lng':'88.43250216'
+},
+{
+'lat':'22.56808025',
+'lng':'88.43223931'
+
+}
+    ]
+      socket.on('connect', function () {
+        $('#chat').addClass('connected');
+
+      });
+      
+      socket.on('announcement', function (msg) {
+        $('#lines').append($('<p>').append($('<em>').text(msg)));
+      });
+      
+      socket.on('nicknames', function (nicknames) {
+        $('#nicknames').empty().append($('<span>Online: </span>'));
+        for (var i in nicknames) {
+          $('#nicknames').append($('<b>').text(nicknames[i]));
+        }
+      });
+      
+      socket.on('user message', message);
+      socket.on('reconnect', function () {
+        $('#lines').remove();
+        message('System', 'Reconnected to the server');
+      });
+      
+      socket.on('reconnecting', function () {
+        message('System', 'Attempting to re-connect to the server');
+      });
+      
+      socket.on('error', function (e) {
+        message('System', e ? e : 'A unknown error occurred');
+      });
+      
+      function message (from, msg) {
+        $('#lines').append($('<p>').append($('<b>').text(from), msg));
+      }
+      
+      // dom manipulation
+      $(function () {
+        $('#set-nickname').submit(function (ev) {
+          socket.emit('nickname', $('#nick').val(), function (set) {
+            if (!set) {
+              clear();
+              return $('#chat').addClass('nickname-set');
+            }
+            $('#nickname-err').css('visibility', 'visible');
+          });
+          return false;
+        });
+        
+        $('#send-message').submit(function () {
+          message('me', $('#message').val());
+          socket.emit('user message', $('#message').val());
+          clear();
+          $('#lines').get(0).scrollTop = 10000000;
+          return false;
+        });
+        
+        function clear () {
+          $('#message').val('').focus();
+        };
+        $('#btn').click(function(){
+            socket.emit('join',{
+                'name':'jssockttest',
+                'room':'9474094290'
+            });
+            setInterval(function(){
+                if((i+1) <=latlong.length ){
+                 socket.emit('sendlatlong',latlong[i]);
+                console.log('got it',latlong[i]);
+                i++;
+                }
+               
+                
+            },2000);
+        })
+      });
+    </script>
+  </head>
+  <body>
+    <div id="chat">
+      <div id="nickname">
+        <form id="set-nickname" class="wrap">
+          <p>Please type in your nickname and press enter.</p>
+          <input id="nick">
+          <p id="nickname-err">Nickname already in use</p>
+        </form>
+      </div>
+      <div id="connecting">
+        <div class="wrap">Connecting to socket.io server</div>
+      </div>
+      <div id="messages">
+        <div id="nicknames"></div>
+        <div id="lines"></div>
+      </div>
+      <form id="send-message">
+        <input id="message">
+        <button>Send</button>
+      </form>
+      <button id="btn">join</button>
+    </div>
+  </body>
+</html> 

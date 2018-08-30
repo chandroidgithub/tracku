@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.developers.trackme.DirectionActivity" />
+
+    <ImageView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/central_marker"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:src="@drawable/ic_cab"/>
+
+</FrameLayout>
